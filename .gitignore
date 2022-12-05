@@ -1,5 +1,5 @@
 *.pyc
 dist/*
-utils/NGSQC_bed_utils
-utils/wigit/wigit
+NGS-QC/utils/NGSQC_bed_utils
+NGS-QC/utils/wigit/wigit
 *~

@@ -8,7 +8,7 @@ Created on 28/01/15
 """
 
 import argparse
-import ConfigParser
+import configparser
 import libngs
 import libregion
 import os
@@ -18,7 +18,7 @@ import shutil
 import sys
 import tempfile
 
-config = ConfigParser.ConfigParser()
+config = configparser.ConfigParser()
 config.read(os.path.join(os.path.dirname(__file__), 'config.ini'))
 gene_db = os.path.join(os.path.dirname(__file__), 'genes.db')
 
@@ -253,5 +253,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
